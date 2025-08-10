@@ -1,0 +1,87 @@
+{
+  "summary": "Enterprise Architect with 20+ years building secure, scalable platforms On-Prem, Azure and AWS. Focused on cloud strategy, platform engineering, and developer experience.",
+  "experience": [
+    {
+      "role": "Senior Enterprise Architect",
+      "company": "Pulte Mortgage",
+      "period": "Aug 2024 — Present",
+      "bullets": [
+        "Led cloud modernization across multiple business units using a hub-and-spoke model.",
+        "Standardized CI/CD via GitHub Actions with reusable workflows and OIDC federation.",
+        "Established observability stack with OpenTelemetry, Azure Monitor, and SLOs."
+      ]
+    },
+    {
+      "role": "Solution/Software Architect",
+      "company": "Nelnet Inc.",
+      "period": "May 2017 — Aug 2024",
+      "bullets": [
+        "Architected and designed to develop scalable, secure and efficient solutions that align with business goals",
+        "Provided technical directions, training, and mentoring to the team members",
+        "Defined, maintained and communicated an enterprise technology and architecture strategy, fitness functions that objectively define the implementation of the technology and architecture strategy",
+        "Architected and led the migration of 30+ enterprise applications from on-prem infrastructure to AWS",
+        "Established enterprise level technical initiatives in collaboration with non-technical audiences as System Owners, Program Managers and Directors",
+        "Designed enterprise-wide solutions with multiple complex integrations, created designs that can be re-used across the enterprise",
+        "Assessed various software license models to determine the cost-benefit and trade offs for achieving business value and technology objectives"
+      ]
+    },{
+      "role": "Sr. Software Engineer",
+      "company": "Location3 Media",
+      "period": "Jan 2015 — April 2017",
+      "bullets": [
+        "Developed web sites using Angular/AngularJS + Typescript, AngularJS Material Design, web APIs",
+        "Worked with data using MS SQL Server using Dapper",
+        "Technologies used: C#, API, HTML, CSS, SQL Server, Dapper, Autofac, TypeScript/JavaScript, AngularJS, NPM, Gulp, Webpack, Azure (WebJobs, Functions, ServiceBus)"
+      ]
+    }
+  ],
+  "skills": [
+    "Azure",
+    "AWS",
+    "Networking",
+    "Security",
+    "GitHub",
+    "GitLab",
+    "Bicep",
+    "Terraform",
+    "Kubernetes",
+    "IaC",
+    "Helm Charts",
+    "Platform Engineering",
+    "App Gateway/Front Door",
+    "Vault Secret Management",
+    "App Configuration",
+    "OpenTelemetry",
+    "Istio/NGINX/F5/WAF"
+  ],
+  "certifications": [
+    {
+      "name": "Model Context Protocol (MCP): Hands-On with Agentic AI",
+      "issuer": "LinkedIn Learning",
+      "year": "Aug 2025"
+    },
+    {
+      "name": "AI on Azure: Intelligent Apps",
+      "issuer": "O'Reilly",
+      "year": "July 2025"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "AWS Training and Certification",
+      "year": "March 2024"
+    }
+    ,
+    {
+      "name": "Kong Gateway Operations (KGAC-201)",
+      "issuer": "Kong Inc.",
+      "year": "Jul 2022"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor/Master of Science in Computer Science",
+      "school": "Belarusian State University of Informatics and Radioelectronics",
+      "year": "2000-2005"
+    }
+  ]
+}

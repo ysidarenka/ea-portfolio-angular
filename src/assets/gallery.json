@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "src": "./assets/images/family-1.jpg",
+      "alt": "Lovely family",
+      "caption": "Lovely family"
+    },
+    {
+      "src": "./assets/images/f1-1.jpg",
+      "alt": "Formula 1 fun",
+      "caption": "Formula 1 fun"
+    },
+    {
+      "src": "./assets/images/photo-1.jpg",
+      "alt": "Like photography",
+      "caption": "Like photography"
+    },
+    {
+      "src": "./assets/images/photo-2.jpg",
+      "alt": "Love racing and fast cars",
+      "caption": "Love racing and fast cars"
+    },
+    {
+      "src": "./assets/images/photo-3.jpg",
+      "alt": "Spend time on the beach and recharge is always a good idea",
+      "caption": "Spend time on the beach and recharge is always a good idea"
+    }
+  ]
+}

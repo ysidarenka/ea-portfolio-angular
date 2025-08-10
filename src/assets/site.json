@@ -1,0 +1,19 @@
+{
+  "name": "Yury Sidarenka",
+  "role": "Pricipal Enterprise Architect",
+  "avatar": "https://media.licdn.com/dms/image/v2/C5603AQFNiqxAGOpE2g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1604532965499?e=2147483647&v=beta&t=8e1ArZHkorpyAZoi4j31g5qeYwUF8m-MpTsju_YjjxQ",
+  "about": "Enterprise Architect transforms business needs into adaptive, scalable architectures. Using deep knowledge of architecture frameworks and cloud solutions, collaboration with stakeholders to deliver strategic solutions that align technology with company objectives.",
+  "headline": "Designing secure, scalable, cloud-native platforms.",
+  "intro": "I specialize in Azure, Kubernetes, GitHub Actions, and cloud security. This site is driven by simple JSON files\u2014you can edit them in <code>src/assets/</code> to update content without touching TypeScript.",
+  "highlights": [
+    "Enterprise Architecture, Cloud Strategy, and DevSecOps leadership",
+    "Azure, AKS, Networking, Zero Trust, Observability",
+    "IaC (Bicep/Terraform), GitHub Actions, Platform Engineering"
+  ],
+  "footer": "Built with Angular & Tailwind. Hosted on Azure Storage Static Website.",
+  "links": {
+    "email": "you@example.com",
+    "github": "https://github.com/your-handle",
+    "linkedin": "https://www.linkedin.com/in/yurysidarenka/"
+  }
+}

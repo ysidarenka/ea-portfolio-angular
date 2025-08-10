@@ -1,0 +1,25 @@
+<div class="flex flex-col items-center py-10">
+  <img src="./assets/images/avatar.jpg" alt="Avatar" class="w-40 h-40 rounded-full mb-6 shadow-lg" />
+  <h2 class="text-lg text-neutral-600">Hello, I’m</h2>
+  <h1 class="text-4xl font-bold mb-2">Yury Sidarenka</h1>
+  <h3 class="text-2xl text-blue-600 font-semibold mb-6">{{site()?.role}}</h3>
+  <section class="max-w-xl text-center mb-8">
+    <h4 class="text-xl font-semibold mb-2">About Me</h4>
+    <p class="text-neutral-700 leading-relaxed">{{site()?.about}}</p>
+  </section>
+  <button class="bg-blue-600 text-white px-6 py-2 rounded mb-8 font-medium hover:bg-blue-700" (click)="goToProjects()">View Projects</button>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl mt-8">
+    <div>
+      <h5 class="text-xl font-bold mb-2">Resume</h5>
+      <p class="text-neutral-600">Review my work experience and education.</p>
+    </div>
+    <div>
+      <h5 class="text-xl font-bold mb-2">Projects</h5>
+      <p class="text-neutral-600">Explore some of my key projects and initiatives.</p>
+    </div>
+    <div>
+      <h5 class="text-xl font-bold mb-2">Achievements</h5>
+      <p class="text-neutral-600">A showcase of my professional milestones.</p>
+    </div>
+  </div>
+</div>

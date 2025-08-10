@@ -1,0 +1,15 @@
+<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+  <figure class="card p-2" *ngFor="let img of data()?.images">
+    <img [src]="img.src" [alt]="img.alt" class="rounded-xl w-full h-56 object-cover mb-2 cursor-pointer transition-transform duration-200 hover:scale-105" (click)="openModal(img)">
+    <figcaption class="text-sm text-neutral-600 dark:text-neutral-400">{{img.caption}}</figcaption>
+  </figure>
+</div>
+
+<!-- Modal Overlay -->
+<div *ngIf="modalOpen()" class="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm transition-opacity duration-300" (click)="closeModal()">
+  <div class="relative max-w-3xl w-full flex flex-col items-center" (click)="$event.stopPropagation()">
+    <img [src]="selectedImg()?.src" [alt]="selectedImg()?.alt" class="rounded-xl shadow-2xl w-full h-auto max-h-[80vh] object-contain transition-all duration-300">
+    <button class="absolute top-2 right-2 text-white bg-black/60 rounded-full px-3 py-1 text-lg" (click)="closeModal()">&times;</button>
+    <div class="mt-4 text-white text-lg">{{selectedImg()?.caption}}</div>
+  </div>
+</div>

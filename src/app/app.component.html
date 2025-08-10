@@ -1,0 +1,49 @@
+<header class="sticky top-0 z-50 bg-white/70 dark:bg-neutral-950/70 backdrop-blur border-b border-neutral-200 dark:border-neutral-800">
+  <nav class="container flex items-center gap-4 py-3">
+    <a routerLink="/" class="flex items-center gap-3 no-underline">
+      <img src="./assets/images/avatar.jpg" alt="Avatar" class="w-10 h-10 rounded-full border border-neutral-200 dark:border-neutral-800" onerror="this.style.display='none'">
+      <div class="leading-tight">
+        <div class="font-semibold text-lg">{{ (site()||{}).name || 'Your Name' }}</div>
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">{{ (site()||{}).role || 'Enterprise Architect' }}</div>
+      </div>
+    </a>
+    <div class="flex-1"></div>
+    <!-- Desktop menu -->
+    <div class="hidden sm:flex items-center gap-2">
+      <a routerLink="/" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{ exact: true }" class="no-underline">Home</a>
+      <a routerLink="/resume" routerLinkActive="font-semibold" class="no-underline">Resume</a>
+      <a routerLink="/projects" routerLinkActive="font-semibold" class="no-underline">Projects</a>
+      <a routerLink="/achievements" routerLinkActive="font-semibold" class="no-underline">Achievements</a>
+      <a routerLink="/gallery" routerLinkActive="font-semibold" class="no-underline">Gallery</a>
+    </div>
+    <button class="ml-2 rounded-xl px-3 py-1 border border-neutral-200 dark:border-neutral-800" (click)="toggleTheme()">🌙</button>
+    <!-- Hamburger icon for mobile -->
+    <button class="sm:hidden ml-2 p-2 rounded border border-neutral-200 dark:border-neutral-800" (click)="menuOpen = !menuOpen" aria-label="Open menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+    </button>
+  </nav>
+  <!-- Mobile menu overlay -->
+  <div *ngIf="menuOpen" class="fixed inset-0 z-50 bg-black flex flex-col items-center justify-start sm:hidden" style="min-height: 100vh; min-width: 100vw;">
+    <div class="w-full bg-black py-4 flex items-center justify-between px-6 border-b border-gray-800">
+        <span class="text-white text-xl font-bold">Menu</span>
+        <button class="text-white text-3xl" (click)="menuOpen = false" aria-label="Close menu">×</button>
+    </div>
+    <nav class="flex flex-col gap-6 text-xl w-full px-6 py-8">
+      <a routerLink="/" routerLinkActive="font-bold underline" [routerLinkActiveOptions]="{ exact: true }" (click)="menuOpen = false" class="text-white">Home</a>
+      <a routerLink="/resume" routerLinkActive="font-bold underline" (click)="menuOpen = false" class="text-white">Resume</a>
+      <a routerLink="/projects" routerLinkActive="font-bold underline" (click)="menuOpen = false" class="text-white">Projects</a>
+      <a routerLink="/achievements" routerLinkActive="font-bold underline" (click)="menuOpen = false" class="text-white">Achievements</a>
+      <a routerLink="/gallery" routerLinkActive="font-bold underline" (click)="menuOpen = false" class="text-white">Gallery</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container py-8">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="border-t border-neutral-200 dark:border-neutral-800">
+  <div class="container py-6 text-sm text-neutral-500 dark:text-neutral-400">
+    © {{ (site()||{}).name || 'Your Name' }} — {{ (site()||{}).footer || 'Built with Angular & Tailwind' }}
+  </div>
+</footer>

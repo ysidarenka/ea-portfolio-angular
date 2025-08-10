@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "title": "Cloud Landing Zone",
+      "summary": "Hub-and-spoke, policy-as-code, and automated guardrails for Azure.",
+      "tags": [
+        "Azure",
+        "IaC",
+        "Security"
+      ],
+      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "title": "Observability Platform",
+      "summary": "Unified tracing/logging/metrics with OpenTelemetry and Azure Monitor.",
+      "tags": [
+        "OpenTelemetry",
+        "Azure Monitor",
+        "SLOs"
+      ],
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+      "link": ""
+    },
+    {
+      "title": "DevSecOps Automation for Azure",
+      "summary": "Automated security controls and CI/CD pipelines with GitHub Actions and OIDC federation for secure deployments.",
+      "tags": ["Azure", "DevSecOps", "GitHub Actions", "Security"],
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "link": ""
+    },
+    {
+      "title": "AKS Multi-Tenant Platform",
+      "summary": "Scalable AKS cluster with Calico network policies, private networking, and blue/green deployments.",
+      "tags": ["AKS", "Kubernetes", "Networking", "Zero Trust"],
+      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80",
+      "link": ""
+    },
+    {
+      "title": "Cloud Cost Optimization",
+      "summary": "Reduced cloud spend by 25% through rightsizing, autoscaling, and resource governance.",
+      "tags": ["Azure", "Cost Optimization", "Automation"],
+      "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80",
+      "link": ""
+    },
+    {
+      "title": "Platform Engineering Enablement",
+      "summary": "Standardized developer experience with reusable workflows, IaC modules, and self-service environments.",
+      "tags": ["Platform Engineering", "IaC", "Developer Experience"],
+      "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
+      "link": ""
+    }
+  ]
+}
